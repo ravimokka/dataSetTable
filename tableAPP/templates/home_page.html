@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>NewsManagementPortal</title>
+    {% load static %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+<!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+<!--  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script-->
+
+
+    <link rel="stylesheet" href="{% static '/css/bootstrap_min.css' %}">
+    <link rel="stylesheet" href="{% static '/css/font-awesome_min.css' %}">
+    <script src="{% static '/js/jquery_min.js' %}"></script>
+    <script src="{% static '/js/bootstrap_min.js' %}"></script>
+
+
+     <link rel="stylesheet" href="{% static '/css/cssStyles.css' %}">
+         <script src="{% static '/js/home_page.js' %}"></script>
+</head>
+<style type="text/css">
+
+   .form-content {
+    padding: 10%;
+    border: 5px solid #ced4da;
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
+
+#header2{
+  font-size: x-large;
+  font-family: initial;
+  color:lightsalmon;
+  font-weight: bold;
+}
+
+.editableColumnsStyle{
+width:100px;
+
+}
+
+.header {
+<!--  padding: 30px;-->
+<!--  font-size: 40px;-->
+  text-align: center;
+  background: white;
+}
+</style>
+
+
+  <body style="background-color:#b3f3fc">
+     <div class="container-fluid">
+
+<div class="header" style="margin-top:30px; margin-bottom:30px;">
+          <div class="table_dataSet">
+              <h3 style="color:hotpink;font-style: #d01dd2;">  API Data Set Table Formatted </h3>
+               Search table data : <input id="myInput" type="text" placeholder="Search..">
+                  <table class="table table-bordered"  style="margin-top:20px; border: 5px solid #ced4da;">
+                        <thead>
+                          <tr>
+                            <th>S.NO</th>
+                            <th>PRONumber</th>
+                            <th>CompanyName</th>
+                            <th>CreatedDate</th>
+                            <th>AmazonShipmentID</th>
+                              <th>ShipStatus</th>
+                            <th>ShipStatusNum</th>
+                              <th>TotalCartons</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+
+
+                          </tr>
+                        </thead>
+                        <tbody class="table_data">
+                        </tbody>
+                  </table>
+
+                      <div id="template">
+                            <table class="table-form-list">
+                                <tr class="table-row-form">
+                                    <td  class="sno"  style="text-align:center;"></td>
+                                     <td  class="pro_num editableColumns"  style="text-align:center;"></td>
+                                    <td class="c_name editableColumns"  style="text-align:center;"></td>
+                                    <td class="c_data editableColumns"  style="text-align:center;"></td>
+                                    <td class="a_ship editableColumns"  style="text-align:center;"></td>
+                                    <td class="ship_s editableColumns"  style="text-align:center;"></td>
+                                    <td class="ship_sn editableColumns"  style="text-align:center;"></td>
+                                    <td class="total_car editableColumns"  style="text-align:center;"></td>
+                                   <td class="btn_edit"  style="text-align:center;"></td>
+                                    <td class="btn_cancel"  style="text-align:center;"></td>
+
+
+                                </tr>
+
+                            </table>
+
+                      </div>
+           </div>
+      </div>
+
+          <!-- Edit Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">edit table row data</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                  <div class="modal-body">
+                      <div class="form-group">
+                          <label for="PRONumber">PRONumber :</label>
+                          <input type="text" class="form-control" id="pro_num" placeholder="PRONumber">
+                      </div>
+
+                        <div class="form-group">
+                            <label for="CompanyName">CompanyName :</label>
+                          <input type="text" class="form-control" id="company_name" placeholder="CompanyName">
+                        </div>
+
+                        <div class="form-group">
+                               <label for="CreatedDate">CreatedDate :</label>
+                          <input type="text" class="form-control" id="date" placeholder="CreatedDate">
+                        </div>
+                            <div class="form-group">
+                                 <label for="AmazonShipmentID">AmazonShipmentID :</label>
+                              <input type="text" class="form-control" id="as_id" placeholder="AmazonShipmentID">
+                            </div>
+                       <div class="form-group">
+                                    <label for="ShipStatus">ShipStatus :</label>
+                                  <input type="text" class="form-control" id="ship_status" placeholder="ShipStatus">
+                                </div>
+                          <div class="form-group">
+                                    <label for="ShipStatusNum">ShipStatusNum :</label>
+                                  <input type="number" class="form-control" id="ss_num" placeholder="ShipStatusNum">
+                                </div>
+                           <div class="form-group">
+                                <label for="TotalCartons">TotalCartons :</label>
+                              <input type="number" class="form-control" id="total_cartons" placeholder="TotalCartons">
+                            </div>
+
+                          </div>
+                          <div class="modal-footer" id="btn_submit">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="btn_update">Update</button>
+                          </div>
+                </div>
+              </div>
+            </div>
+         </div>
+  </body>
+
+</html>
+
+
+

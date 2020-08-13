@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="23a1a82b-dff2-4c8d-9f82-9856c44c1653" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fuaZhRMRp1ZMtirlFpZ5gQjcDv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/tableAPP" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23a1a82b-dff2-4c8d-9f82-9856c44c1653" name="Default Changelist" comment="" />
+      <created>1597070488589</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597070488589</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="174" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597289359260">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="174" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1597289359260" />
+    <state width="705" height="540" key="DebuggerActiveHint" timestamp="1597288017310">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="705" height="540" key="DebuggerActiveHint/67.27.1299.741@67.27.1299.741" timestamp="1597288017310" />
+    <state x="499" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1597289537734">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="499" y="155" width="424" height="491" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1597289537734" />
+    <state width="1276" height="551" key="GridCell.Tab.0.bottom" timestamp="1597290102432">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1276" height="551" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1597290102432" />
+    <state width="1276" height="551" key="GridCell.Tab.0.center" timestamp="1597290102431">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1276" height="551" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1597290102431" />
+    <state width="1276" height="551" key="GridCell.Tab.0.left" timestamp="1597290102431">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1276" height="551" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1597290102431" />
+    <state width="1276" height="551" key="GridCell.Tab.0.right" timestamp="1597290102431">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1276" height="551" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1597290102431" />
+    <state width="1276" height="551" key="GridCell.Tab.1.bottom" timestamp="1597290102433">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1276" height="551" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1597290102433" />
+    <state width="1276" height="551" key="GridCell.Tab.1.center" timestamp="1597290102433">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1276" height="551" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1597290102433" />
+    <state width="1276" height="551" key="GridCell.Tab.1.left" timestamp="1597290102432">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1276" height="551" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1597290102432" />
+    <state width="1276" height="551" key="GridCell.Tab.1.right" timestamp="1597290102433">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1276" height="551" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1597290102433" />
+    <state width="649" height="370" key="XDebugger.FullValuePopup" timestamp="1597285100665">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="649" height="370" key="XDebugger.FullValuePopup/67.27.1299.741@67.27.1299.741" timestamp="1597285100665" />
+    <state x="167" y="127" width="1099" height="541" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597281278664">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="167" y="127" width="1099" height="541" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1299.741@67.27.1299.741" timestamp="1597281278664" />
+    <state x="372" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1597243731181">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="372" y="225" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1597243731181" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tableAPP/views.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tableAPP/views.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tableAPP/views.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tableAPP/views.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tableAPP/views.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tableAPP/views.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tableAPP/views.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tableAPP/views.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tableAPP/views.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tableAPP/views.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tableAPP/views.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tableAPP/views.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tableAPP/views.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tableAPP/views.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tableAPP/views.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tableAPP/views.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tableAPP/views.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tableAPP/views.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="i.AmazonShipmentID" language="Python" />
+        <watch expression="i['AmazonShipmentID']" language="Python" />
+        <watch expression="i.get('AmazonShipmentID')" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
